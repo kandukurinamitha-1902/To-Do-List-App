@@ -25,14 +25,14 @@ CSS3
 Bootstrap
 Material UI
 
-Author
+Screenshort:
+![alt text](image.png)
 
+Author:
 Name: Your Name
-
 GitHub: https://github.com/kandukurinamitha-1902
 
 Email: your-kandukurinamitha@gmail.com
 
-License
-
+License:
 This project is created for learning and educational purposes.
