@@ -8,12 +8,9 @@ import Checkbox from '@mui/material/Checkbox';
 
 
 
-const label = { slotProps: { input: { 'aria-label': 'Checkbox demo' } } };
 
 function ToDoList({ task, setTask }) {
-
     const [filterTask, setFilterTask] = useState([]);
-
     useEffect(() => {
         setFilterTask([...task]);
     }, [task]);
@@ -21,7 +18,6 @@ function ToDoList({ task, setTask }) {
     const [toDoName, setToDoName] = useState();
 
     const backupList = task;
-
       // functinality for add task.
     function addToDoList() {
         //condition  written in add new task for dose not existing 30 characters we Ddd new task.
